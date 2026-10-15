@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+region-tools/census_*.geojson
+region-tools/validation_report.md

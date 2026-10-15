@@ -1,0 +1,302 @@
+{
+  "title": "California MeshCore Region Map",
+  "source": "https://github.com/matkam/meshcore-settings",
+  "updated": "2026-08-03",
+  "regions": [
+    {
+      "id": "california",
+      "name": "California",
+      "short_name": "CALIFORNIA",
+      "region_type": "State Region",
+      "coordination_status": "political_boundaries",
+      "coordination_label": "Political Boundaries",
+      "file": "california.geojson",
+      "optional": true,
+      "visible": false,
+      "legend": false
+    },
+    {
+      "id": "norcal",
+      "name": "North California",
+      "short_name": "NOR CAL",
+      "region_type": "Region",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "norcal.geojson"
+    },
+    {
+      "id": "sacramentofoothills",
+      "name": "Sacramento Foothills",
+      "short_name": "SAC FOOTHILLS",
+      "region_type": "Region",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "sacramentofoothills.geojson"
+    },
+    {
+      "id": "sierranevada",
+      "name": "Sierra Nevada",
+      "short_name": "SIERRA",
+      "region_type": "Region",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "sierranevada.geojson"
+    },
+    {
+      "id": "goldcountry",
+      "name": "Gold Country",
+      "short_name": "GOLDCOUNTRY",
+      "region_type": "Area",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "goldcountry.geojson",
+      "visible": false,
+      "legend": false
+    },
+    {
+      "id": "eastsierra",
+      "name": "Eastern Sierra",
+      "short_name": "EASTSIERRA",
+      "region_type": "Area",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "eastsierra.geojson",
+      "visible": false,
+      "legend": false
+    },
+    {
+      "id": "bayarea",
+      "name": "San Francisco Bay Area",
+      "short_name": "BAY AREA",
+      "region_type": "Region",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "bayarea.geojson"
+    },
+    {
+      "id": "sf",
+      "name": "San Francisco",
+      "short_name": "SF",
+      "region_type": "Area",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "sf.geojson",
+      "visible": false,
+      "legend": false
+    },
+    {
+      "id": "northbay",
+      "name": "North Bay",
+      "short_name": "NORTHBAY",
+      "region_type": "Area",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "northbay.geojson",
+      "visible": false,
+      "legend": false
+    },
+    {
+      "id": "eastbay",
+      "name": "East Bay",
+      "short_name": "EASTBAY",
+      "region_type": "Area",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "eastbay.geojson",
+      "visible": false,
+      "legend": false
+    },
+    {
+      "id": "peninsula",
+      "name": "Peninsula",
+      "short_name": "PENINSULA",
+      "region_type": "Area",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "peninsula.geojson",
+      "visible": false,
+      "legend": false
+    },
+    {
+      "id": "southbay",
+      "name": "South Bay",
+      "short_name": "SOUTHBAY",
+      "region_type": "Area",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "southbay.geojson",
+      "visible": false,
+      "legend": false
+    },
+    {
+      "id": "centralcoast",
+      "name": "Central Coast",
+      "short_name": "C COAST",
+      "region_type": "Region",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "centralcoast.geojson"
+    },
+    {
+      "id": "montereybay",
+      "name": "Monterey Bay",
+      "short_name": "MONTEREYBAY",
+      "region_type": "Area",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "montereybay.geojson",
+      "visible": false,
+      "legend": false
+    },
+    {
+      "id": "slo",
+      "name": "SLO County",
+      "short_name": "SLO",
+      "region_type": "Area",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "slo.geojson",
+      "visible": false,
+      "legend": false
+    },
+    {
+      "id": "centralvalley",
+      "name": "Central Valley",
+      "short_name": "C VALLEY",
+      "region_type": "Region",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "centralvalley.geojson"
+    },
+    {
+      "id": "cvnorth",
+      "name": "North Valley",
+      "short_name": "CVNORTH",
+      "region_type": "Area",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "cvnorth.geojson",
+      "visible": false,
+      "legend": false
+    },
+    {
+      "id": "cvmid",
+      "name": "Mid Valley",
+      "short_name": "CVMID",
+      "region_type": "Area",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "cvmid.geojson",
+      "visible": false,
+      "legend": false
+    },
+    {
+      "id": "cvsouth",
+      "name": "South Valley",
+      "short_name": "CVSOUTH",
+      "region_type": "Area",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "cvsouth.geojson",
+      "visible": false,
+      "legend": false
+    },
+    {
+      "id": "socal",
+      "name": "Southern California",
+      "short_name": "SOCAL",
+      "region_type": "Region",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "socal.geojson"
+    },
+    {
+      "id": "santabarbara",
+      "name": "Santa Barbara County",
+      "short_name": "SANTABARBARA",
+      "region_type": "Area",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "santabarbara.geojson",
+      "visible": false,
+      "legend": false
+    },
+    {
+      "id": "ventura",
+      "name": "Ventura County",
+      "short_name": "VENTURA",
+      "region_type": "Area",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "ventura.geojson",
+      "visible": false,
+      "legend": false
+    },
+    {
+      "id": "losangeles",
+      "name": "Los Angeles County",
+      "short_name": "LA",
+      "region_type": "Area",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "losangeles.geojson",
+      "visible": false,
+      "legend": false
+    },
+    {
+      "id": "orange",
+      "name": "Orange County",
+      "short_name": "ORANGE",
+      "region_type": "Area",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "orange.geojson",
+      "visible": false,
+      "legend": false
+    },
+    {
+      "id": "sanbernardino",
+      "name": "San Bernardino County",
+      "short_name": "SB CO",
+      "region_type": "Area",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "sanbernardino.geojson",
+      "visible": false,
+      "legend": false
+    },
+    {
+      "id": "riverside",
+      "name": "Riverside County",
+      "short_name": "RIV CO",
+      "region_type": "Area",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "riverside.geojson",
+      "visible": false,
+      "legend": false
+    },
+    {
+      "id": "imperial",
+      "name": "Imperial County",
+      "short_name": "IMPERIAL",
+      "region_type": "Area",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "imperial.geojson",
+      "visible": false,
+      "legend": false
+    },
+    {
+      "id": "sandiego",
+      "name": "San Diego County",
+      "short_name": "SANDIEGO",
+      "region_type": "Area",
+      "coordination_status": "official_local",
+      "coordination_label": "Official Local Region",
+      "file": "sandiego.geojson",
+      "visible": false,
+      "legend": false
+    }
+  ]
+}

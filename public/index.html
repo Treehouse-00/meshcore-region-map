@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>California MeshCore Region Map</title>
+  <meta
+    name="description"
+    content="Interactive MeshCore region boundaries for California, built from the meshcore-settings region tree."
+  >
+  <style>
+    :root {
+      color-scheme: light;
+      --text: #16202a;
+      --muted: #536271;
+      --border: #d6dee8;
+      --bg: #f6f8fb;
+      --card: #fff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.5;
+    }
+
+    main {
+      margin: 0 auto;
+      max-width: 880px;
+      padding: 4rem 1.5rem 5rem;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 6vw, 3.5rem);
+      line-height: 1.05;
+      margin: 0 0 1rem;
+    }
+
+    .lead {
+      color: var(--muted);
+      font-size: 1.15rem;
+      max-width: 42rem;
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin: 1.75rem 0 2.5rem;
+    }
+
+    a.button {
+      background: #0f766e;
+      border-radius: 8px;
+      color: #fff;
+      display: inline-block;
+      font-weight: 650;
+      padding: 0.8rem 1.1rem;
+      text-decoration: none;
+    }
+
+    a.button.secondary {
+      background: #fff;
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+
+    .grid {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    article {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.15rem 1.2rem;
+    }
+
+    article h2 {
+      font-size: 1.05rem;
+      margin: 0 0 0.55rem;
+    }
+
+    article p,
+    article li {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    article ul {
+      margin: 0.4rem 0 0;
+      padding-left: 1.15rem;
+    }
+
+    code {
+      background: #eef2f7;
+      border-radius: 4px;
+      font-size: 0.92em;
+      padding: 0.1em 0.35em;
+    }
+
+    @media (max-width: 720px) {
+      main {
+        padding-top: 2.5rem;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>California MeshCore Region Map</h1>
+    <p class="lead">
+      This is a standalone Leaflet viewer for the California MeshCore region
+      tree. It uses the New England Mesh region-map UI, with boundaries generated
+      from U.S. Census counties claimed by
+      <a href="https://github.com/matkam/meshcore-settings">meshcore-settings</a>.
+    </p>
+    <div class="actions">
+      <a class="button" href="regions/map.html">Open the region map</a>
+      <a class="button secondary" href="https://matkam.github.io/meshcore-settings/">Open the settings picker</a>
+    </div>
+    <div class="grid">
+      <article>
+        <h2>What the map shows</h2>
+        <p>
+          Click anywhere to list every MeshCore region containing that point.
+          Top-level regions are on by default. Nested areas can be turned on
+          from the layer control.
+        </p>
+      </article>
+      <article>
+        <h2>Region layers</h2>
+        <ul>
+          <li><code>norcal</code> North California</li>
+          <li><code>sacramentofoothills</code> Sacramento Foothills</li>
+          <li><code>sierranevada</code> Sierra Nevada</li>
+          <li><code>bayarea</code> San Francisco Bay Area</li>
+          <li><code>centralcoast</code> Central Coast</li>
+          <li><code>centralvalley</code> Central Valley</li>
+          <li><code>socal</code> Southern California</li>
+        </ul>
+      </article>
+      <article>
+        <h2>How boundaries are built</h2>
+        <p>
+          Top-level regions are a partition of California counties, with no
+          overlap. Nested areas keep their own outlines, including
+          <code>cvsouth</code> covering Kings, Tulare, and Kern.
+        </p>
+      </article>
+      <article>
+        <h2>Nested areas</h2>
+        <p>
+          County-level areas such as <code>orange</code> stay in the layer
+          control so you can turn them on without cluttering the default map.
+        </p>
+      </article>
+    </div>
+  </main>
+</body>
+</html>
